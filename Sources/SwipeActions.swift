@@ -482,7 +482,6 @@ public struct SwipeView<Label, LeadingActions, TrailingActions>: View where Labe
                 if #available(iOS 16.0, *) {
                     let generator = UIImpactFeedbackGenerator(style: .rigid)
                     generator.impactOccurred()
-                 
                 }
             }
         }
